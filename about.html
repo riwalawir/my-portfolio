@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <section class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-14">
+                    <a href="/" class="font-bold text-lg block py-6">Riwal Ramdhani</a>
+                </div>
+
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-16 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-gray-50 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="about.html" class="text-base text-gray-900 py-2 mx-8 flex">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="project.html" class="text-base text-gray-900 py-2 mx-8 flex">Project</a>
+                            </li>
+                            <li class="group">
+                                <a href="contact.html" class="text-base text-gray-900 py-2 mx-8 flex">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER SECTION -->
+
+     <!-- ABOUT SECTION START -->
+     <section class="py-10 bg-gray-200 sm:py-16 lg:py-24">
+        <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+            <div class="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center">
+                <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl lg:leading-tight">
+                    About.
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 mt-8 md:mt-20 gap-y-6 md:grid-cols-2 gap-x-10">
+                <div>
+                    <h1 class="text-lg font-semibold text-gray-900">Hello,</h1>
+                    <p class="text-lg text-gray-700">
+                        My name is Riwal Ramdhani, or you can call me Riwal. I'm a
+                        fullstack developer from Depok, I focus on web development
+                        and web design. The main programming language I learn is
+                        Javascript, as well as the React framework (and its
+                        environment in general).
+                    </p>
+                    <p class="mt-4 text-lg text-gray-700">
+                        I love learning things, and always want to learn new things.
+                        I am enthusiastic, reliable, responsible and hardworking
+                        person.
+                    </p>
+                </div>
+
+                <div>
+                    <img class="w-full mx-auto sm:max-w-xs" src="./assets/images/myAvatar.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+</body>
+
+</html>
